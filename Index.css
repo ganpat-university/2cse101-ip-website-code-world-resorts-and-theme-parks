@@ -1,0 +1,84 @@
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+ font-family: Algerian;
+	font-weight: bold;
+}
+
+.dropbtn
+{
+	font-family: Algerian;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1170D4;
+	color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #1170D4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.head1
+{
+    text-align: center;
+    background-color: antiquewhite;
+	padding: 15px;
+    margin: 0;
+    font-family: Colonna MT;
+    font-size: 70px;
+}
+
+a:active
+{
+	background-color: #1170D4;
+	color: white;
+}
