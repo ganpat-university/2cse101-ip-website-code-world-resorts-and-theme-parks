@@ -1,0 +1,67 @@
+h1
+{
+	color: aqua;
+	text-align: center;
+	font-size: 40px;
+}
+
+.d1
+{
+	font-size: 35px;
+	height: 100%;
+	width: 50%;
+	margin: auto;
+	background-color: #E1E1E1;
+    text-align: center;
+    border-spacing: 30px;
+	border-radius: 10px;
+	padding: 30px;
+	
+}
+#img1
+{
+	margin: 5;
+	border-radius: 10px;
+	padding: 5px;
+	width: 100%;
+}
+
+p
+{
+	color: #2B2A2A;
+	
+}
+body
+{
+	background: url("Images/img1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: aliceblue;
+	overflow: auto;
+}
+
+.img2
+{
+	border-radius: 10px;
+	width: 100%;
+	padding: 5px;
+}
+
+.arrow
+{
+	height: 60px;
+}
+
+
+::-webkit-scrollbar { 
+                display: none; 
+            } 
+
+html { -ms-overflow-style: none; }
+
+@media only screen and (max-width: 768px) 
+{
+	div {font-size: 20px; width: 70%}
+	.arrow {height: 30px;}
+}
